@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 
-m = int(input("please enter the number of the candidates\n"))
-n = int(input("please enter the number of the features\n"))
-
+# m = int(input("please enter the number of the candidates\n"))
+# n = int(input("please enter the number of the features\n"))
+#
 kind = input("please enter the correct order type of the features 1.max 2.min 3.mean 4.range").split(" ")
 print(kind)
-
-
-print("please give the data matrix")
+#
+#
+# print("please give the data matrix")
 
 A = np.zeros(shape=(4, 4))
 for i in range(2):
